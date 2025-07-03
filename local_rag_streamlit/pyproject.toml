@@ -1,0 +1,17 @@
+[project]
+name = "docling-exp"
+version = "1"
+description = ""
+authors = [
+    {name = "djs manoj",email = "djsmanoj0000@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "docling (>=2.39.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
